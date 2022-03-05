@@ -5,9 +5,6 @@ import morgan from "morgan";
 import userRouter from "./routes/user.js";
 import tourRouter from "./routes/tour.js";
 
-// Go7PkfEtVv7SKkif
-// mongodb+srv://codewithvishal:<password>@cluster0.cfy0n.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
-
 const app = express();
 
 app.use(morgan("dev"));
